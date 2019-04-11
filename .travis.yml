@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - '9'
+dist: trusty
+sudo: required
+before_script:
+  - npm install -g @angular/cli
+script:
+  - ng build --prod
+  - npm run test
+  - npm run lint
+  - npm run e2e
