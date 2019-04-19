@@ -112,6 +112,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "apps/todo-app-e2e/tsconfig.e2e.json",
+            "tslintConfig": "tslint.spec.json",
             "exclude": ["**/node_modules/**"]
           }
         }

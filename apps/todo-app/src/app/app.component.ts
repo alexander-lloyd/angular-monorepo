@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
+/**
+ * Root Component
+ */
 @Component({
+  changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'angular-monorepo-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'todo-app';
+  public title: string = 'todo-app';
 }
