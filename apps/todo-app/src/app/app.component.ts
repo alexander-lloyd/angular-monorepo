@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 /**
  * Root Component
  */
 @Component({
+  changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'angular-monorepo-root',
   styleUrls: ['./app.component.css'],
   templateUrl: './app.component.html'
