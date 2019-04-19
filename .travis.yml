@@ -5,6 +5,7 @@ dist: trusty
 sudo: required
 script:
   - yarn ng build --prod
-  - yarn test
+  - yarn test --code-coverage
   - yarn lint
   - yarn e2e
+  - codecov -f coverage/**/*.json
