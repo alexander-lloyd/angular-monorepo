@@ -3,8 +3,13 @@ node_js:
   - '10'
 dist: trusty
 sudo: required
+
+before_script:
+  - curl -s https://codecov.io/bash > .codecov
+  - chmod +x .codecov
 script:
   - yarn ng build --prod
-  - yarn test
+  - yarn test --code-coverage
   - yarn lint
   - yarn e2e
+  - ./.codecov -f coverage/**/*.json
