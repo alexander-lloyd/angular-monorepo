@@ -51,7 +51,7 @@
     "@nrwl/schematics": "7.8.3",
     "@types/jest": "24.0.12",
     "@types/jquery": "3.3.29",
-    "@types/node": "~11.13.8",
+    "@types/node": "~11.13.9",
     "codelyzer": "5.0.1",
     "cypress": "3.2.0",
     "dotenv": "7.0.0",
