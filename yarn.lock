@@ -759,10 +759,10 @@
     webpack-node-externals "1.7.2"
     zone.js "0.8.29"
 
-"@nrwl/schematics@7.8.3":
-  version "7.8.3"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-7.8.3.tgz#9f763b1b28bcf46182b5470f30b11922471982e4"
-  integrity sha512-F+HEwKl9HQ2dgNuf0+pGrnpUF+zZW9Ra8VDThUyGMBzTXWPVPEAiRanIWqESX13yerSowKC5wbTIjtEg4lDg4Q==
+"@nrwl/schematics@7.8.4":
+  version "7.8.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-7.8.4.tgz#4f88d9bf3cadf381bf6d1ebf6149294bdb7dfb1c"
+  integrity sha512-07pOKt5y7uKb0xiEskhoDMeVHh8FwmJOtKK2sGD1eNaJpn3XC0E++nOrtG6J8vFKmckHYT17/pQt5KZR5HBwGw==
   dependencies:
     app-root-path "^2.0.1"
     cosmiconfig "4.0.0"
