@@ -735,10 +735,10 @@
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
 
-"@nrwl/builders@7.8.4":
-  version "7.8.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/builders/-/builders-7.8.4.tgz#3b488e3c62dd4235fe3785eebc5a196f3a3cfc14"
-  integrity sha512-7Txc+h9QvgjS8DjBzv6OjICOhBrR9mRoTF4ahzk70iVKfngyiRsqWDh0hd07L0c06BXukOD8/JymP9CyqKvlWQ==
+"@nrwl/builders@7.8.5":
+  version "7.8.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/builders/-/builders-7.8.5.tgz#79a73e473337b51b58d2490850cec5a175f1dfbb"
+  integrity sha512-GkKwhel8XeMuEcGvxkJbTrhoE57gWp1uq7qITkIq5s69vpCeunB7hrVNy2i9skAs+f9f4hqNeBUptjEVB9vfuA==
   dependencies:
     "@angular-devkit/architect" "~0.13.1"
     "@angular-devkit/build-angular" "~0.13.1"
