@@ -22,11 +22,10 @@ script:
   - yarn e2e
   - ./.codecov -f coverage/**/*.json
 
-after_success:
-  - yarn deploy \
-      --repo="$REPO_NAME" \
-      --message="$MESSAGE" \
-      --name="$GITHUB_NAME" \
-      --email="$GITHUB_EMAIL" \
-      --dir="dist/apps/todo-app" \
-      --no-dotfiles
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
