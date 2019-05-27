@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "./tslint.json"
+  ],
+  "rules": {
+    "no-implicit-dependencies": [true, "dev"],
+    "no-import-side-effect": false,
+    "no-floating-promises": false,
+    "typedef": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "**/*.directive.ts",
+      "**/*.component.ts",
+      "**/*.module.ts",
+      "**/*.service.ts",
+      "**/*.module.ts"
+    ]
+  }
+}
