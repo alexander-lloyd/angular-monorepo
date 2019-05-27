@@ -1,5 +1,5 @@
 {
-  "npmScope": "angular-monorepo",
+  "npmScope": "al",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": "*",
@@ -12,6 +12,9 @@
       "tags": []
     },
     "todo-app-e2e": {
+      "tags": []
+    },
+    "ui-components": {
       "tags": []
     }
   }

@@ -1,0 +1,11 @@
+<button
+  [class.btn]="true"
+  [class.btn-small]="size == 'small'"
+  [class.btn-medium]="size == 'medium'"
+  [class.btn-large]="size == 'large'"
+  [class.btn-primary]="type == 'primary'"
+  [class.btn-secondary]="type == 'secondary'"
+  [class.btn-tertiary]="type == 'tertiary'"
+>
+  <ng-content></ng-content>
+</button>

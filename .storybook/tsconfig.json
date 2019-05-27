@@ -6,12 +6,10 @@
     ]
   },
   "exclude": [
-    "../src/test.ts",
-    "../src/**/*.spec.ts",
-    "../projects/**/*.spec.ts"
+    "../libs/**/test-setup.ts",
+    "../libs/**/*.spec.ts"
   ],
   "include": [
-    "../src/**/*",
-    "../projects/**/*"
+    "../libs/**/*.ts"
   ]
 }
