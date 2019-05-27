@@ -7,9 +7,18 @@ sudo: required
 before_script:
   - curl -s https://codecov.io/bash > .codecov
   - chmod +x .codecov
+
 script:
-  - yarn ng build --prod
+  - yarn ng build --prod --base-href "https://alexander-lloyd.github.io/angular-monorepo/"
   - yarn test --code-coverage
   - yarn lint
   - yarn e2e
   - ./.codecov -f coverage/**/*.json
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
