@@ -4,13 +4,6 @@ node_js:
 dist: trusty
 sudo: required
 
-env:
-  global:
-    - REPO_NAME="https://GT_TOKEN@github.com/alexander-lloyd/angular-monorepo.git"
-    - GITHUB_NAME="The Alex Bot"
-    - MESSAGE="Deployed Application"
-    - GITHUB_EMAIL="deploy@botbot.com"
-
 before_script:
   - curl -s https://codecov.io/bash > .codecov
   - chmod +x .codecov
