@@ -81,7 +81,7 @@
           }
         },
         "test": {
-          "builder": "@nrwl/builders:jest",
+          "builder": "@nrwl/jest:jest",
           "options": {
             "jestConfig": "apps/todo-app/jest.config.js",
             "tsConfig": "apps/todo-app/tsconfig.spec.json",
