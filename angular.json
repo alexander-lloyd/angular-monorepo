@@ -81,7 +81,7 @@
           }
         },
         "test": {
-          "builder": "@nrwl/builders:jest",
+          "builder": "@nrwl/jest:jest",
           "options": {
             "jestConfig": "apps/todo-app/jest.config.js",
             "tsConfig": "apps/todo-app/tsconfig.spec.json",
@@ -96,7 +96,7 @@
       "prefix": "",
       "architect": {
         "e2e": {
-          "builder": "@nrwl/builders:cypress",
+          "builder": "@nrwl/cypress:cypress",
           "options": {
             "cypressConfig": "apps/todo-app-e2e/cypress.json",
             "tsConfig": "apps/todo-app-e2e/tsconfig.e2e.json",
