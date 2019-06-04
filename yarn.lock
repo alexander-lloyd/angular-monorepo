@@ -897,15 +897,6 @@
     webpack-node-externals "1.7.2"
     zone.js "0.8.29"
 
-"@nrwl/cypress@8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.0.1.tgz#8246dec70484975d674957f3c32397029503e93f"
-  integrity sha512-MYBT/Z9/Of+Ba1Sl+whovQDdzaPsmTyJ1jcHzaJdqT0VdvsVvZZFL3Dd/gslcm60oIGndSe3SbZEAVyBBxm/uw==
-  dependencies:
-    "@angular-devkit/architect" "0.800.0"
-    "@angular-devkit/core" "8.0.0"
-    tree-kill "1.2.1"
-
 "@nrwl/cypress@8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.0.2.tgz#66e65610ccb351b49daeda101787b2ad39b7fe86"
@@ -914,15 +905,6 @@
     "@angular-devkit/architect" "0.800.0"
     "@angular-devkit/core" "8.0.0"
     tree-kill "1.2.1"
-
-"@nrwl/jest@8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-8.0.1.tgz#a74d1df133e59212a31b0b772f20f2c2404e1fa0"
-  integrity sha512-k95T9knchISTsc/FMJIIKC4Qaqxni39g5rgMLXJCJOJI6wRdbRYrox0I1m80LzuK1SSB0PgctFYon5bDeNgRoA==
-  dependencies:
-    "@angular-devkit/architect" "0.800.0"
-    "@angular-devkit/core" "8.0.0"
-    "@angular-devkit/schematics" "8.0.0"
 
 "@nrwl/jest@8.0.2":
   version "8.0.2"
@@ -940,29 +922,6 @@
   dependencies:
     "@nrwl/angular" "8.0.2"
     "@nrwl/workspace" "8.0.2"
-    app-root-path "^2.0.1"
-    cosmiconfig "4.0.0"
-    fs-extra "6.0.0"
-    graphviz "0.0.8"
-    ignore "5.0.4"
-    npm-run-all "4.1.5"
-    opn "^5.3.0"
-    prettier "1.16.4"
-    rxjs "6.3.3"
-    semver "5.4.1"
-    strip-json-comments "2.0.1"
-    tmp "0.0.33"
-    viz.js "^1.8.1"
-    yargs "^11.0.0"
-    yargs-parser "10.0.0"
-
-"@nrwl/workspace@8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-8.0.1.tgz#ff694da9308523b8bbd22d94c7b03148e12ad269"
-  integrity sha512-oAsREhBVVzpBtBMQdO5qCO3DF5dev/SoJsFt3xCDSO4VhDmJiyEobNoycvzet1XJOFFFnDPimLa00PaFGcvB1g==
-  dependencies:
-    "@angular-devkit/core" "8.0.0"
-    "@angular-devkit/schematics" "8.0.0"
     app-root-path "^2.0.1"
     cosmiconfig "4.0.0"
     fs-extra "6.0.0"
