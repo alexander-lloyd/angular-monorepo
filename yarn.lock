@@ -861,16 +861,16 @@
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
 
-"@nrwl/angular@8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/angular/-/angular-8.0.2.tgz#585f9c196cc7cfae62ddae240de2be4c01125e0c"
-  integrity sha512-twYq+NW842jW/hZKsr8uw3MIBZ7ZxLqfQbUh0L6nBLSuDlAFiUYN0PhQ+d35fFPuzumSWdqwDUocRnpqClL3aw==
+"@nrwl/angular@8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/angular/-/angular-8.1.0.tgz#a10b1aefa3d1e61b81e00e2ce501ad977aed9c25"
+  integrity sha512-4bHc2bLt1bFiyb3206bvMQbX+qgeUSPDvaPmQGDu+iPstaArDoGReZM/XAcwmZvs86Q1BSn36Q/A7WJRanvT5A==
   dependencies:
-    "@angular-devkit/schematics" "8.0.0"
-    "@nrwl/cypress" "8.0.2"
-    "@nrwl/jest" "8.0.2"
-    "@schematics/angular" "8.0.0"
-    jasmine-marbles "~0.4.0"
+    "@angular-devkit/schematics" "8.0.1"
+    "@nrwl/cypress" "8.1.0"
+    "@nrwl/jest" "8.1.0"
+    "@schematics/angular" "8.0.1"
+    jasmine-marbles "~0.5.0"
 
 "@nrwl/builders@8.0.2":
   version "8.0.2"
@@ -906,6 +906,15 @@
     "@angular-devkit/core" "8.0.0"
     tree-kill "1.2.1"
 
+"@nrwl/cypress@8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.1.0.tgz#43aa75f94b7f84b6163e6894b9ea8785be364a0a"
+  integrity sha512-82BTg9V67QhPGBgNO2PYWvV/zf2QFw4vGKsHPkJOM/8Wc6hVEpPniTjPx2hpcICLYrPRnhF7u4dYAVTe/PrT6Q==
+  dependencies:
+    "@angular-devkit/architect" "0.800.1"
+    "@angular-devkit/core" "8.0.1"
+    tree-kill "1.2.1"
+
 "@nrwl/jest@8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-8.0.2.tgz#560db6107197599ead058e92934792c5668c6ce5"
@@ -915,13 +924,22 @@
     "@angular-devkit/core" "8.0.0"
     "@angular-devkit/schematics" "8.0.0"
 
-"@nrwl/schematics@8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-8.0.2.tgz#051df5dfd23d56c8bba4a230cce271377dcb0df0"
-  integrity sha512-QawhkwTITOKBMtOZ+mas8PQ8OVhzWIVrBOGzvRcSplSxVI42Rn1x05mxc7yNlNedCVcgKH2u4aOg9Ae88CdMOA==
+"@nrwl/jest@8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-8.1.0.tgz#53042001217be40907141e7c10ffcf6725ffa5bb"
+  integrity sha512-599tx4sgKtFAI3exhgBDVfCtZc0045Q2K1kQEW3f1M621XThSCZpb6SpatXqgiYp4/1o4IU+OHy9fftfcOic5g==
   dependencies:
-    "@nrwl/angular" "8.0.2"
-    "@nrwl/workspace" "8.0.2"
+    "@angular-devkit/architect" "0.800.1"
+    "@angular-devkit/core" "8.0.1"
+    "@angular-devkit/schematics" "8.0.1"
+
+"@nrwl/schematics@8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-8.1.0.tgz#13f79d9fe92c31207970fc50485ff5702ebc50fe"
+  integrity sha512-YoLnoEwyT/YwRkCf/xGJ2ydSG4T7DlQeijCnZRR5Me3sBMb6N0vHZNrv5z3xV1H3FrZeyGE9BfCXgT++zQloXg==
+  dependencies:
+    "@nrwl/angular" "8.1.0"
+    "@nrwl/workspace" "8.1.0"
     app-root-path "^2.0.1"
     cosmiconfig "4.0.0"
     fs-extra "6.0.0"
@@ -961,6 +979,29 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
+"@nrwl/workspace@8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-8.1.0.tgz#85ccf2141156061d2e1ae24711af8a8866f85ce8"
+  integrity sha512-WpWkNAqLLvFt5lbGa2i8sS4fQGsovUw/nJF6vch35QHFm1DxLeNTNnIkkMdx4TRz7SiIEOR5Du+RqUDvgQGTzA==
+  dependencies:
+    "@angular-devkit/core" "8.0.1"
+    "@angular-devkit/schematics" "8.0.1"
+    app-root-path "^2.0.1"
+    cosmiconfig "4.0.0"
+    fs-extra "6.0.0"
+    graphviz "0.0.8"
+    ignore "5.0.4"
+    npm-run-all "4.1.5"
+    opn "^5.3.0"
+    prettier "1.16.4"
+    rxjs "6.3.3"
+    semver "5.4.1"
+    strip-json-comments "2.0.1"
+    tmp "0.0.33"
+    viz.js "^1.8.1"
+    yargs "^11.0.0"
+    yargs-parser "10.0.0"
+
 "@schematics/angular@7.3.1":
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.3.1.tgz#6fcd7004210fa9305310c3109c084df5c5521776"
@@ -969,14 +1010,6 @@
     "@angular-devkit/core" "7.3.1"
     "@angular-devkit/schematics" "7.3.1"
     typescript "3.2.4"
-
-"@schematics/angular@8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-8.0.0.tgz#47954888fb8acbc3600235db7a46229c47fe5d9c"
-  integrity sha512-c/cFpe+u7Xh4xX3/kn9BSRY4YhdO0OsDbRK0pGLDJFFs5JGvwoURtNXn4/4dVlsj3PWyNhxK0Ljl3dyw3NQBHA==
-  dependencies:
-    "@angular-devkit/core" "8.0.0"
-    "@angular-devkit/schematics" "8.0.0"
 
 "@schematics/angular@8.0.1":
   version "8.0.1"
@@ -5188,10 +5221,10 @@ istanbul-reports@^2.1.1:
   dependencies:
     handlebars "^4.1.2"
 
-jasmine-marbles@~0.4.0:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/jasmine-marbles/-/jasmine-marbles-0.4.1.tgz#5e0b492c124b3a34f958c40c0587f3abccea6485"
-  integrity sha512-i5jjbwSX2dxMCt6uhNZCHh8QhjD4rJtUZDhCqz6NwelQezV6ScM22cuvWNlDQrGSvdM71elKUfGQrSMJYIoS2g==
+jasmine-marbles@~0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/jasmine-marbles/-/jasmine-marbles-0.5.0.tgz#5d4c51082fcf619bb8dbc85583cb11718a32b200"
+  integrity sha512-hkSYy7VJpcxaKE48s/CasVpGyheElp5ZegguFi5kpYAaUWsyOko6RnMZS1kv14ThMtlJVNqCW5z16f1q6HqbEg==
   dependencies:
     lodash "^4.5.0"
 
