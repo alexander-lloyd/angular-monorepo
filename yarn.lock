@@ -18,14 +18,6 @@
     "@angular-devkit/core" "7.3.9"
     rxjs "6.3.3"
 
-"@angular-devkit/architect@0.800.0":
-  version "0.800.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.800.0.tgz#2f2ce1178b12b0c0fde455d00def60104b9cd08e"
-  integrity sha512-haXTS9EDaJfKyYiFylK2hObJH5DVGhX3OEn3OC7XUVlfKV3GRmC6NKXPjnxcN0wWP5zIV1c4xuB2N64mcxSnaA==
-  dependencies:
-    "@angular-devkit/core" "8.0.0"
-    rxjs "6.4.0"
-
 "@angular-devkit/architect@0.800.1":
   version "0.800.1"
   resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.800.1.tgz#decff7e973b9459834ec256f4329a49420757c1f"
@@ -202,17 +194,6 @@
     rxjs "6.3.3"
     source-map "0.7.3"
 
-"@angular-devkit/core@8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.0.0.tgz#a0ca65d8d0f928db9288316b1f3346d21f722213"
-  integrity sha512-wYf4zzpYj5Y673DG8iteK0GsDDuXBKN/TOXm4lUwmXcz8QHTD+BfR6qA5TBDqlMGpU7CP1/0vgbv2px17CDETQ==
-  dependencies:
-    ajv "6.10.0"
-    fast-json-stable-stringify "2.0.0"
-    magic-string "0.25.2"
-    rxjs "6.4.0"
-    source-map "0.7.3"
-
 "@angular-devkit/core@8.0.1":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.0.1.tgz#4a38141006deefa2f60f105b458d32885ffc1bec"
@@ -231,14 +212,6 @@
   dependencies:
     "@angular-devkit/core" "7.3.1"
     rxjs "6.3.3"
-
-"@angular-devkit/schematics@8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.0.0.tgz#53d14646c6286b0397417990fc83e3e9a6ecf233"
-  integrity sha512-IXJOs/DkDqNbfG76sNNY5ePZ37rjkMUopmtvhN6/U1hQFwTpGa9N0bCHFphcKraXeS6Jfox5XwFEStc/1xyhfw==
-  dependencies:
-    "@angular-devkit/core" "8.0.0"
-    rxjs "6.4.0"
 
 "@angular-devkit/schematics@8.0.1":
   version "8.0.1"
@@ -897,15 +870,6 @@
     webpack-node-externals "1.7.2"
     zone.js "0.8.29"
 
-"@nrwl/cypress@8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.0.2.tgz#66e65610ccb351b49daeda101787b2ad39b7fe86"
-  integrity sha512-YBwIpwsjYxLp2Fl7/D+eH/SfE5QQixPd6XQ/mnn3HJclGsPHhaV6rQb/3/Qg4rRVAxOLVPUW459Un8L9mtGctQ==
-  dependencies:
-    "@angular-devkit/architect" "0.800.0"
-    "@angular-devkit/core" "8.0.0"
-    tree-kill "1.2.1"
-
 "@nrwl/cypress@8.1.0":
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.1.0.tgz#43aa75f94b7f84b6163e6894b9ea8785be364a0a"
@@ -914,15 +878,6 @@
     "@angular-devkit/architect" "0.800.1"
     "@angular-devkit/core" "8.0.1"
     tree-kill "1.2.1"
-
-"@nrwl/jest@8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-8.0.2.tgz#560db6107197599ead058e92934792c5668c6ce5"
-  integrity sha512-cD1T1TBYaqEo31RvJWSsNJDYwPGsBf7yiLYLodFtTcrL3qVfEjN/hdQ2iV3npVDLuCd9wcq8hD/kWYpcDNxf+w==
-  dependencies:
-    "@angular-devkit/architect" "0.800.0"
-    "@angular-devkit/core" "8.0.0"
-    "@angular-devkit/schematics" "8.0.0"
 
 "@nrwl/jest@8.1.0":
   version "8.1.0"
@@ -940,29 +895,6 @@
   dependencies:
     "@nrwl/angular" "8.1.0"
     "@nrwl/workspace" "8.1.0"
-    app-root-path "^2.0.1"
-    cosmiconfig "4.0.0"
-    fs-extra "6.0.0"
-    graphviz "0.0.8"
-    ignore "5.0.4"
-    npm-run-all "4.1.5"
-    opn "^5.3.0"
-    prettier "1.16.4"
-    rxjs "6.3.3"
-    semver "5.4.1"
-    strip-json-comments "2.0.1"
-    tmp "0.0.33"
-    viz.js "^1.8.1"
-    yargs "^11.0.0"
-    yargs-parser "10.0.0"
-
-"@nrwl/workspace@8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-8.0.2.tgz#09101be72b282f1849a7a331a2cbb9e45387f3f7"
-  integrity sha512-H8c/w/Q5BhMQe+PGIBBnRhaM0G71E9wfsJ0MKlR55g4Jivy10HsMtkLF6/fRpWhAF4Sh8qHMr9P4C1+RBeh3Gw==
-  dependencies:
-    "@angular-devkit/core" "8.0.0"
-    "@angular-devkit/schematics" "8.0.0"
     app-root-path "^2.0.1"
     cosmiconfig "4.0.0"
     fs-extra "6.0.0"
