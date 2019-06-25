@@ -13,6 +13,9 @@
     },
     "todo-app-e2e": {
       "tags": []
+    },
+    "gamepad-rxjs": {
+      "tags": ["ng"]
     }
   }
 }

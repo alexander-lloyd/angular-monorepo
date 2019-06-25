@@ -5,8 +5,7 @@
   "rules": {
     "no-implicit-dependencies": [true, "dev"],
     "no-import-side-effect": false,
-    "no-floating-promises": false,
-    "typedef": false
+    "no-floating-promises": false
   },
   "linterOptions": {
     "exclude": [

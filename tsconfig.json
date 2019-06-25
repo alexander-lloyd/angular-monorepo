@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "@al/gamepad-rxjs": ["libs/gamepad-rxjs/src/index.ts"]
+    },
     "strictNullChecks": true
   },
   "exclude": ["node_modules", "tmp"]

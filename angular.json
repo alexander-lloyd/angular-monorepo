@@ -7,7 +7,7 @@
       "root": "apps/todo-app/",
       "sourceRoot": "apps/todo-app/src",
       "projectType": "application",
-      "prefix": "angular-monorepo",
+      "prefix": "al",
       "schematics": {},
       "architect": {
         "build": {
@@ -117,6 +117,40 @@
           }
         }
       }
+    },
+    "gamepad-rxjs": {
+      "projectType": "library",
+      "root": "libs/gamepad-rxjs",
+      "sourceRoot": "libs/gamepad-rxjs/src",
+      "prefix": "al",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "libs/gamepad-rxjs/tsconfig.lib.json",
+            "project": "libs/gamepad-rxjs/ng-package.json"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/gamepad-rxjs/tsconfig.lib.json",
+              "libs/gamepad-rxjs/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/gamepad-rxjs/jest.config.js",
+            "tsConfig": "libs/gamepad-rxjs/tsconfig.spec.json",
+            "setupFile": "libs/gamepad-rxjs/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {}
     }
   },
   "cli": {
