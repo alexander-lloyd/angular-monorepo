@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { fromEvent, Observable, pipe, UnaryFunction } from 'rxjs';
+import { concat, fromEvent, Observable, pipe, UnaryFunction } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 const gamepadAddedEvent = 'gamepadconnected';
@@ -9,6 +9,7 @@ const gamepadRemovedEvent = 'gamepaddisconnected';
 export class GamepadService {
 
   private readonly $gamepadAdded: Observable<GamepadEvent>;
+  private readonly $gamepadEvents: Observable<GamepadEvent>;
   private readonly $gamepadRemoved: Observable<GamepadEvent>;
   private gameEventPipe: UnaryFunction<Observable<GamepadEvent>, Observable<Gamepad>> = pipe(
     map(($event: GamepadEvent) => $event.gamepad)
@@ -31,12 +32,28 @@ export class GamepadService {
       .subscribe((gamepad: Gamepad) => {
         this.gamePads.delete(gamepad.id);
       });
+
+    this.$gamepadEvents = concat(this.$gamepadAdded, this.$gamepadRemoved);
   }
 
+  /**
+   * Get a stream of Gamepad add events.
+   */
   public getGamepadAddedObservable(): Observable<GamepadEvent> {
     return this.$gamepadAdded;
   }
 
+  /**
+   * Get a stream of all of the Gamepad Events
+   * @returns Observable of GamepadEvents.
+   */
+  public getGamepadEventStream(): Observable<GamepadEvent> {
+    return this.$gamepadEvents;
+  }
+
+  /**
+   * Get a stream of Gamepad remove events.
+   */
   public getGamepadRemovedObservable(): Observable<GamepadEvent> {
     return this.$gamepadRemoved;
   }
