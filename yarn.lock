@@ -1396,15 +1396,6 @@
     webpack-node-externals "1.7.2"
     zone.js "0.8.29"
 
-"@nrwl/cypress@8.1.2":
-  version "8.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.1.2.tgz#48d4da2a36c2e2e42cd00dbc7ec125ec7cb96022"
-  integrity sha512-CVoxmXYoy9gvmYVOmB2VgqBVr65RI3MlRPIe4ZZrpYR4YN0XCgPxX0x0M33EQMlFAugejkCycNANsQEE65dMhw==
-  dependencies:
-    "@angular-devkit/architect" "0.800.1"
-    "@angular-devkit/core" "8.0.1"
-    tree-kill "1.2.1"
-
 "@nrwl/cypress@8.2.0":
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.2.0.tgz#70d0f16eec8ba58fbbfbe3f03bbf15a742910752"
@@ -1417,15 +1408,6 @@
     ts-loader "5.3.1"
     tsconfig-paths-webpack-plugin "3.2.0"
     webpack-node-externals "1.7.2"
-
-"@nrwl/jest@8.1.2":
-  version "8.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-8.1.2.tgz#8c563bf61c4683a522884a193983df4fe4ecbda3"
-  integrity sha512-P0KQG1UXOVrh8YmZwZHAJPjBc6kzYp0VKGNwspesah4oGLHfPqNWwWrbWCTZ0aFWTHX5Qb+HFu0anJuQ5UzjbQ==
-  dependencies:
-    "@angular-devkit/architect" "0.800.1"
-    "@angular-devkit/core" "8.0.1"
-    "@angular-devkit/schematics" "8.0.1"
 
 "@nrwl/jest@8.2.0":
   version "8.2.0"
@@ -1443,29 +1425,6 @@
   dependencies:
     "@nrwl/angular" "8.2.0"
     "@nrwl/workspace" "8.2.0"
-    app-root-path "^2.0.1"
-    cosmiconfig "4.0.0"
-    fs-extra "6.0.0"
-    graphviz "0.0.8"
-    ignore "5.0.4"
-    npm-run-all "4.1.5"
-    opn "^5.3.0"
-    prettier "1.16.4"
-    rxjs "6.3.3"
-    semver "5.4.1"
-    strip-json-comments "2.0.1"
-    tmp "0.0.33"
-    viz.js "^1.8.1"
-    yargs "^11.0.0"
-    yargs-parser "10.0.0"
-
-"@nrwl/workspace@8.1.2":
-  version "8.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-8.1.2.tgz#5a24940f8631e127270c0f89d22ffef091e5b04e"
-  integrity sha512-pifxtThCEO2kft/8BOBNa+Y+PBMFc6O1y2oxNS4BxLzgbfUsYiBH5TjdvURyc8a7Y2VpxwkHvgvw+gh7lQTEAg==
-  dependencies:
-    "@angular-devkit/core" "8.0.1"
-    "@angular-devkit/schematics" "8.0.1"
     app-root-path "^2.0.1"
     cosmiconfig "4.0.0"
     fs-extra "6.0.0"
