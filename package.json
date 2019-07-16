@@ -47,7 +47,7 @@
     "@angular/compiler-cli": "8.0.0",
     "@angular/language-service": "8.1.1",
     "@commitlint/cli": "8.1.0",
-    "@commitlint/config-conventional": "8.0.0",
+    "@commitlint/config-conventional": "8.1.0",
     "@nrwl/builders": "8.0.2",
     "@nrwl/cypress": "8.2.0",
     "@nrwl/jest": "8.2.0",
