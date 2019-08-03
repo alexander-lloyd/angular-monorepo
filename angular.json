@@ -139,7 +139,7 @@
             "main": "apps/bookmark-manager/src/main.ts",
             "polyfills": "apps/bookmark-manager/src/polyfills.ts",
             "tsConfig": "apps/bookmark-manager/tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "apps/bookmark-manager/src/favicon.ico",
               "apps/bookmark-manager/src/assets"
