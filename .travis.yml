@@ -10,6 +10,7 @@ before_script:
 
 script:
   - yarn ng build --prod --base-href "https://alexander-lloyd.github.io/angular-monorepo/"
+  - yarn ng build --prod bookmark-manager
   - yarn test --code-coverage
   - yarn lint
   - yarn e2e

@@ -13,6 +13,12 @@
     },
     "todo-app-e2e": {
       "tags": []
+    },
+    "bookmark-manager-e2e": {
+      "tags": []
+    },
+    "bookmark-manager": {
+      "tags": []
     }
   }
 }
