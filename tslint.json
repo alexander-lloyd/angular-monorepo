@@ -21,6 +21,7 @@
         }
       }
     ],
+    "file-name-casing": [true, "kebab-case"],
     "forin": true,
     "import-blacklist": [true, "rxjs/Rx"],
     "interface-name": [true, "never-prefix"],
@@ -31,6 +32,7 @@
     "no-inferrable-types": [true, "ignore-params", "ignore-properties"],
     "no-switch-case-fall-through": true,
     "no-submodule-imports": [true, "@angular/platform-browser", "@angular/core/testing", "rxjs", "zone.js"],
+    "only-arrow-functions": false,
     "quotemark": [true, "single", "jsx-double"],
     "trailing-comma": {
       "options": {
