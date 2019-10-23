@@ -1522,6 +1522,16 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
+"@nrwl/cli@8.7.0":
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-8.7.0.tgz#a94399f70d8df66940bf7a358e6fe9ad41c3d199"
+  integrity sha512-ap/lS6MQNz0TxVjefwkGfwzTn0fmLodU+GTMKiaMWD+Xgip74DQlLkCtig1uaGKxcRGUuzw9MZDoy7bk/tVRFA==
+  dependencies:
+    "@nrwl/tao" "8.7.0"
+    tmp "0.0.33"
+    yargs "^11.0.0"
+    yargs-parser "10.0.0"
+
 "@nrwl/cypress@8.6.0":
   version "8.6.0"
   resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.6.0.tgz#8fd814d5a35c237d7719f6f9b71141652928dd77"
@@ -1536,10 +1546,33 @@
     tsconfig-paths-webpack-plugin "3.2.0"
     webpack-node-externals "1.7.2"
 
+"@nrwl/cypress@8.7.0":
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.7.0.tgz#b635cd8450ac51cf1538eb6c463c74f6d3eb46af"
+  integrity sha512-HxuMRhnvMY/K7W9bV7WSwV1v2wf4buI7WW+4ShRY9l7ILYXt7zQKH8tUYHORjrF9YGe6h1FxlHn0WCr/eDXS2g==
+  dependencies:
+    "@angular-devkit/architect" "0.803.3"
+    "@angular-devkit/core" "8.3.3"
+    "@cypress/webpack-preprocessor" "~4.1.0"
+    fork-ts-checker-webpack-plugin "^0.4.9"
+    tree-kill "1.2.1"
+    ts-loader "5.3.1"
+    tsconfig-paths-webpack-plugin "3.2.0"
+    webpack-node-externals "1.7.2"
+
 "@nrwl/jest@8.6.0":
   version "8.6.0"
   resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-8.6.0.tgz#60ae672fc529abdedf7792f4378a2abd6a08a346"
   integrity sha512-QW9De6wpnbCCl/Rn8t2NclzytljNt85jQbvOja/Op11HPcw86cmAVtFFROhZ7ykTSV8c6kiOfDatJkCxG4Qlgg==
+  dependencies:
+    "@angular-devkit/architect" "0.803.3"
+    "@angular-devkit/core" "8.3.3"
+    "@angular-devkit/schematics" "8.3.3"
+
+"@nrwl/jest@8.7.0":
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-8.7.0.tgz#2e64b77c2a6b4bb2e9dca26d20ae2f19bc146960"
+  integrity sha512-Y36ADDqqzwWdCdtNXU0vuKhc8bOCTPPDBULFZz5pUbSay/bdynveR/QyUHoFwvamovzVLJfVKRKuJWcmnkjE9Q==
   dependencies:
     "@angular-devkit/architect" "0.803.3"
     "@angular-devkit/core" "8.3.3"
@@ -1580,6 +1613,19 @@
     minimist "^1.2.0"
     strip-json-comments "2.0.1"
 
+"@nrwl/tao@8.7.0":
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-8.7.0.tgz#6811af59ff29646b52ad86afded0dc26577abead"
+  integrity sha512-FDFLGTuCP9170CMdMOwx00yh3Lirw7gjuh/IfmA/iUr/TQMsj5zq40nQih3YysOXaHPljX8EeccxzwS7hZFJow==
+  dependencies:
+    "@angular-devkit/architect" "0.803.3"
+    "@angular-devkit/core" "8.3.3"
+    "@angular-devkit/schematics" "8.3.3"
+    fast-levenshtein "2.0.6"
+    inquirer "^6.3.1"
+    minimist "^1.2.0"
+    strip-json-comments "2.0.1"
+
 "@nrwl/workspace@8.6.0":
   version "8.6.0"
   resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-8.6.0.tgz#7f90bf6f389fdda2f3502c6f5fa3f6a34f017373"
@@ -1588,6 +1634,28 @@
     "@angular-devkit/core" "8.3.3"
     "@angular-devkit/schematics" "8.3.3"
     "@nrwl/cli" "8.6.0"
+    chalk "2.4.2"
+    cosmiconfig "4.0.0"
+    fs-extra "6.0.0"
+    ignore "5.0.4"
+    npm-run-all "4.1.5"
+    opn "^5.3.0"
+    prettier "1.18.2"
+    rxjs "^6.4.0"
+    semver "5.4.1"
+    strip-json-comments "2.0.1"
+    tmp "0.0.33"
+    yargs "^11.0.0"
+    yargs-parser "10.0.0"
+
+"@nrwl/workspace@8.7.0":
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-8.7.0.tgz#92be4425ba391daac6d6ad6249135b531b8779f3"
+  integrity sha512-LidRrzLH6aOlkxw31PEX4rFK6K60w6CBpTMoeT7LJ9p6O8NOFkjBthonKA+T4GZkRqM9SWm4muB6r29ev8WkiA==
+  dependencies:
+    "@angular-devkit/core" "8.3.3"
+    "@angular-devkit/schematics" "8.3.3"
+    "@nrwl/cli" "8.7.0"
     chalk "2.4.2"
     cosmiconfig "4.0.0"
     fs-extra "6.0.0"
@@ -4632,7 +4700,7 @@ fast-json-stable-stringify@2.0.0, fast-json-stable-stringify@2.x, fast-json-stab
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
   integrity sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
 
-fast-levenshtein@~2.0.4:
+fast-levenshtein@2.0.6, fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
