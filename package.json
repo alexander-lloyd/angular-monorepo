@@ -55,7 +55,7 @@
     "@nrwl/workspace": "8.7.0",
     "@types/jest": "24.0.19",
     "@types/jquery": "3.3.31",
-    "@types/node": "~12.11.2",
+    "@types/node": "~12.12.7",
     "codelyzer": "5.2.0",
     "cypress": "3.6.1",
     "dotenv": "8.2.0",
