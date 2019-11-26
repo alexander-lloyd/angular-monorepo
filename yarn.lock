@@ -34,14 +34,6 @@
     "@angular-devkit/core" "8.3.19"
     rxjs "6.4.0"
 
-"@angular-devkit/architect@0.803.3":
-  version "0.803.3"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.803.3.tgz#9d8a0733927201c64c17af034636af024ede7e47"
-  integrity sha512-PInK3JTLZ+r/3MK52rocD0IwmxKVULnoed4XuxdklD1zh7e7Aj9WIoTGdVgzaTwdUFaeuBdAy4UqwfhHEmn5MQ==
-  dependencies:
-    "@angular-devkit/core" "8.3.3"
-    rxjs "6.4.0"
-
 "@angular-devkit/build-angular@0.803.19":
   version "0.803.19"
   resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-0.803.19.tgz#feacc447edeffdb227c47cbf1c370c64dc4a4110"
@@ -239,17 +231,6 @@
     rxjs "6.4.0"
     source-map "0.7.3"
 
-"@angular-devkit/core@8.3.3":
-  version "8.3.3"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.3.3.tgz#75777ad5a23904a20022c0ec1e60843c647d8602"
-  integrity sha512-E49GCnn06q79Xd5SC/+8CDRF1wp9wQqP6HKJVVMijoi3NOrMQTuHTesPURvve2xbkCYqQOVlMEonhOJF5vpnoQ==
-  dependencies:
-    ajv "6.10.2"
-    fast-json-stable-stringify "2.0.0"
-    magic-string "0.25.3"
-    rxjs "6.4.0"
-    source-map "0.7.3"
-
 "@angular-devkit/schematics@7.3.1":
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.3.1.tgz#7dc704005b966ea6c1ee62f380120183bb76eee6"
@@ -272,14 +253,6 @@
   integrity sha512-sHZMRypW5ZMvla8uMOTsAYHwPiBpShz31tJzd7F07gs9hpj3J05FZ3nL+ZVdt25YzdCUPaFPQKyVx2YfjGyJAw==
   dependencies:
     "@angular-devkit/core" "8.3.19"
-    rxjs "6.4.0"
-
-"@angular-devkit/schematics@8.3.3":
-  version "8.3.3"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.3.3.tgz#f86581b6656552c728b7b80b59717b1567dff45b"
-  integrity sha512-t5I77YeRCWpr5PJMQn8iCu2zHqnQt7qqxt66ejmsDnFgCQDw2G1IQl48AzjegJybIoRCaWX12yUZaS5aaJm5Cg==
-  dependencies:
-    "@angular-devkit/core" "8.3.3"
     rxjs "6.4.0"
 
 "@angular/animations@8.0.0":
@@ -1540,16 +1513,6 @@
     webpack-node-externals "1.7.2"
     zone.js "0.8.29"
 
-"@nrwl/cli@8.7.0":
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-8.7.0.tgz#a94399f70d8df66940bf7a358e6fe9ad41c3d199"
-  integrity sha512-ap/lS6MQNz0TxVjefwkGfwzTn0fmLodU+GTMKiaMWD+Xgip74DQlLkCtig1uaGKxcRGUuzw9MZDoy7bk/tVRFA==
-  dependencies:
-    "@nrwl/tao" "8.7.0"
-    tmp "0.0.33"
-    yargs "^11.0.0"
-    yargs-parser "10.0.0"
-
 "@nrwl/cli@8.8.2":
   version "8.8.2"
   resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-8.8.2.tgz#2bc7b0602adcb9c67e3a04b5b9caa32a7f55964b"
@@ -1560,20 +1523,6 @@
     tmp "0.0.33"
     yargs "^11.0.0"
     yargs-parser "10.0.0"
-
-"@nrwl/cypress@8.7.0":
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-8.7.0.tgz#b635cd8450ac51cf1538eb6c463c74f6d3eb46af"
-  integrity sha512-HxuMRhnvMY/K7W9bV7WSwV1v2wf4buI7WW+4ShRY9l7ILYXt7zQKH8tUYHORjrF9YGe6h1FxlHn0WCr/eDXS2g==
-  dependencies:
-    "@angular-devkit/architect" "0.803.3"
-    "@angular-devkit/core" "8.3.3"
-    "@cypress/webpack-preprocessor" "~4.1.0"
-    fork-ts-checker-webpack-plugin "^0.4.9"
-    tree-kill "1.2.1"
-    ts-loader "5.3.1"
-    tsconfig-paths-webpack-plugin "3.2.0"
-    webpack-node-externals "1.7.2"
 
 "@nrwl/cypress@8.8.2":
   version "8.8.2"
@@ -1587,15 +1536,6 @@
     ts-loader "5.3.1"
     tsconfig-paths-webpack-plugin "3.2.0"
     webpack-node-externals "1.7.2"
-
-"@nrwl/jest@8.7.0":
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-8.7.0.tgz#2e64b77c2a6b4bb2e9dca26d20ae2f19bc146960"
-  integrity sha512-Y36ADDqqzwWdCdtNXU0vuKhc8bOCTPPDBULFZz5pUbSay/bdynveR/QyUHoFwvamovzVLJfVKRKuJWcmnkjE9Q==
-  dependencies:
-    "@angular-devkit/architect" "0.803.3"
-    "@angular-devkit/core" "8.3.3"
-    "@angular-devkit/schematics" "8.3.3"
 
 "@nrwl/jest@8.8.2":
   version "8.8.2"
@@ -1629,19 +1569,6 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
-"@nrwl/tao@8.7.0":
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-8.7.0.tgz#6811af59ff29646b52ad86afded0dc26577abead"
-  integrity sha512-FDFLGTuCP9170CMdMOwx00yh3Lirw7gjuh/IfmA/iUr/TQMsj5zq40nQih3YysOXaHPljX8EeccxzwS7hZFJow==
-  dependencies:
-    "@angular-devkit/architect" "0.803.3"
-    "@angular-devkit/core" "8.3.3"
-    "@angular-devkit/schematics" "8.3.3"
-    fast-levenshtein "2.0.6"
-    inquirer "^6.3.1"
-    minimist "^1.2.0"
-    strip-json-comments "2.0.1"
-
 "@nrwl/tao@8.8.2":
   version "8.8.2"
   resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-8.8.2.tgz#ee1bfb82fbb3fafcdd13f058abda6af4d29cefe7"
@@ -1654,28 +1581,6 @@
     inquirer "^6.3.1"
     minimist "^1.2.0"
     strip-json-comments "2.0.1"
-
-"@nrwl/workspace@8.7.0":
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-8.7.0.tgz#92be4425ba391daac6d6ad6249135b531b8779f3"
-  integrity sha512-LidRrzLH6aOlkxw31PEX4rFK6K60w6CBpTMoeT7LJ9p6O8NOFkjBthonKA+T4GZkRqM9SWm4muB6r29ev8WkiA==
-  dependencies:
-    "@angular-devkit/core" "8.3.3"
-    "@angular-devkit/schematics" "8.3.3"
-    "@nrwl/cli" "8.7.0"
-    chalk "2.4.2"
-    cosmiconfig "4.0.0"
-    fs-extra "6.0.0"
-    ignore "5.0.4"
-    npm-run-all "4.1.5"
-    opn "^5.3.0"
-    prettier "1.18.2"
-    rxjs "^6.4.0"
-    semver "5.4.1"
-    strip-json-comments "2.0.1"
-    tmp "0.0.33"
-    yargs "^11.0.0"
-    yargs-parser "10.0.0"
 
 "@nrwl/workspace@8.8.2":
   version "8.8.2"
@@ -5029,20 +4934,6 @@ fork-ts-checker-webpack-plugin@0.4.9:
     lodash.isfunction "^3.0.8"
     lodash.isstring "^4.0.1"
     lodash.startswith "^4.2.1"
-    minimatch "^3.0.4"
-    resolve "^1.5.0"
-    tapable "^1.0.0"
-
-fork-ts-checker-webpack-plugin@^0.4.9:
-  version "0.4.15"
-  resolved "https://registry.yarnpkg.com/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-0.4.15.tgz#7cd9f94f3dd58cd1fe8f953f876e72090eda3f6d"
-  integrity sha512-qNYuygh2GxXehBvQZ5rI5YlQFn+7ZV6kmkyD9Sgs33dWl73NZdUOB5aCp8v0EXJn176AhPrZP8YCMT3h01fs+g==
-  dependencies:
-    babel-code-frame "^6.22.0"
-    chalk "^2.4.1"
-    chokidar "^2.0.4"
-    lodash "^4.17.11"
-    micromatch "^3.1.10"
     minimatch "^3.0.4"
     resolve "^1.5.0"
     tapable "^1.0.0"
