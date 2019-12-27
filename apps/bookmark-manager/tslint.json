@@ -1,7 +1,7 @@
 {
   "extends": "../../tslint.app.json",
   "rules": {
-    "directive-selector": [true, "attribute", "angularMonorepo", "camelCase"],
-    "component-selector": [true, "element", "angular-monorepo", "kebab-case"]
+    "directive-selector": [true, "attribute", "bm", "camelCase"],
+    "component-selector": [true, "element", "bm", "kebab-case"]
   }
 }
