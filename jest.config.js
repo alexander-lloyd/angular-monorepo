@@ -1,8 +1,8 @@
 module.exports = {
-  global: {
+  globals: {
     'ts-jest': {
       diagnostics: false
-    },
+    }
   },
   testMatch: ['**/+(*.)+(spec|test).+(ts|js)?(x)'],
   transform: {
@@ -12,7 +12,5 @@ module.exports = {
   moduleFileExtensions: ['ts', 'js', 'html'],
   collectCoverage: true,
   coverageReporters: ['html', 'json'],
-  collectCoverageFrom: [
-    "src/app/**/*.ts"
-  ]
+  collectCoverageFrom: ['src/app/**/*.ts']
 };

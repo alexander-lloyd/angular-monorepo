@@ -50,7 +50,7 @@ export function isExpandable(node: TreeNode): boolean {
  * @returns Children nodes.
  */
 export function getChildren(node: FolderModel): FavouriteNode[] {
-  return node.children;
+  return node.children || [];
 }
 
 /**

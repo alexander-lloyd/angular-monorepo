@@ -94,7 +94,11 @@
     "prefer-inline-decorator": true,
     "prefer-on-push-component-change-detection": true,
     "prefer-output-readonly": true,
-    "strict-boolean-expressions": [true, "allow-undefined-union"],
+    "strict-boolean-expressions": [
+      true,
+      "allow-undefined-union",
+      "ignore-rhs"
+    ],
     "template-accessibility-alt-text": true,
     "template-accessibility-elements-content": true,
     "template-accessibility-label-for": true,

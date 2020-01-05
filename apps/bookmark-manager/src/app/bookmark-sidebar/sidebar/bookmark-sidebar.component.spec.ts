@@ -46,10 +46,35 @@ describe('SidebarComponent', () => {
 
   it('should render folders', () => {
     const treeNodes = fixture.debugElement.queryAll(By.css('mat-tree-node'));
-    const textNodes = treeNodes.map((debugElement: DebugElement) =>
-      debugElement.nativeElement.lastChild.trim()
+
+    // Get the folder names.
+    const textNodes: Array<string> = treeNodes.map(
+      (debugElement: DebugElement) => {
+        const folderElements = debugElement.children;
+        expect(folderElements.length).toBe(1);
+        const folderButton: HTMLButtonElement = folderElements[0].nativeElement;
+
+        return (
+          (folderButton.nextSibling as HTMLElement).textContent || ''
+        ).trim();
+      }
     );
 
-    expect(textNodes).toEqual([favouriteModel.name]);
+    const favouriteFolderNames = [favourites.name];
+
+    expect(textNodes).toEqual(favouriteFolderNames);
+  });
+
+  it('should render folder children when folder is toggled', () => {
+    const treeNodes = fixture.debugElement.queryAll(By.css('mat-tree-node'));
+
+    const buttons = fixture.debugElement.queryAll(By.css('button'));
+    buttons[0].nativeElement.click(); // Click the first element.
+
+    const moreTreeNodes = fixture.debugElement.queryAll(
+      By.css('mat-tree-node')
+    );
+
+    expect(moreTreeNodes.length).toBeGreaterThan(treeNodes.length);
   });
 });
