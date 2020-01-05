@@ -1,0 +1,15 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+jobs:
+  - job: ci
+    timeoutInMinutes: 120
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+      - template: .azure-pipelines/steps/install-node-modules.yml
+      - script: yarn nx run-many --target=test --all
+      - script: yarn nx run-many --target=lint --all
+      - script: yarn nx run-many --target=build --all --prod
