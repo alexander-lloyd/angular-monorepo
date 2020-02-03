@@ -51,7 +51,7 @@
     "@nrwl/builders": "8.0.2",
     "@nrwl/cypress": "8.9.0",
     "@nrwl/jest": "8.9.0",
-    "@nrwl/schematics": "8.9.0",
+    "@nrwl/schematics": "8.12.1",
     "@nrwl/workspace": "8.9.0",
     "@types/jest": "24.0.23",
     "@types/jquery": "3.3.31",
