@@ -45,7 +45,7 @@
     "@angular-devkit/build-angular": "0.803.21",
     "@angular/cli": "8.3.21",
     "@angular/compiler-cli": "8.2.14",
-    "@angular/language-service": "8.2.14",
+    "@angular/language-service": "9.0.0",
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
     "@nrwl/builders": "8.0.2",
