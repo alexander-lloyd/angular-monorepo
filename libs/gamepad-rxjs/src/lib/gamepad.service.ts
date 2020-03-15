@@ -6,7 +6,7 @@ const gamepadAddedEvent = 'gamepadconnected';
 const gamepadRemovedEvent = 'gamepaddisconnected';
 const gamepadPollTime = 100;
 
-function getGamepad(gamepadId: string): Gamepad {
+function getGamepad(gamepadId: string): Gamepad | null {
   return navigator.getGamepads()[gamepadId];
 }
 
@@ -18,7 +18,7 @@ export class GamepadService implements OnDestroy {
   private readonly $gamepadEvents: Observable<GamepadEvent>;
   private readonly $gamepadRemoved: Observable<GamepadEvent>;
   private readonly $gamepadRemovedSubscription: Subscription;
-  private gameEventPipe: UnaryFunction<Observable<GamepadEvent>, Observable<Gamepad>> = pipe(
+  private readonly gameEventPipe: UnaryFunction<Observable<GamepadEvent>, Observable<Gamepad>> = pipe(
     map(($event: GamepadEvent) => $event.gamepad)
   );
 
